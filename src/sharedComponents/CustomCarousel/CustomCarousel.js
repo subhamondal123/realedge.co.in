@@ -23,7 +23,7 @@ const responsive = {
 
 export default function CustomCarousel({ data }) {
     return (
-        <div className="w-full flex overflow-hidden">
+        <div className="w-full overflow-hidden relative z-10">
             <Carousel
                 swipeable={true}
                 draggable={true}

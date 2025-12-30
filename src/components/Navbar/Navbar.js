@@ -5,13 +5,13 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <nav className="sticky top-0 left-0 w-full bg-white shadow-md z-50  flex-col pb-1 md:pb-0 md:px-4">
+        <nav className="sticky top-0 left-0 w-full bg-white shadow-md z-50  flex-col pb-1 md:pb-0 ">
             {/* Logo Section */}
             <section className='bg-[#f8f8f8] flex justify-between px-4 md:px-22 items-center py-1 text-xs'>
                 <div className='flex items-center'>
                     <img src='assets/images/icon-mail-orange.png' alt='download-icon' className="w-4 h-4 object-contain mr-2" />
                     <Link href={RouteConstraints.HomePage}><span className='text-black font-light text-sm'>info@realedge.co.in</span></Link>
-                    <img src='assets/images/icon-phone-orange.png' alt='download-icon' className="w-4 h-4 object-contain ml-3" />
+                    <img src='assets/images/icon-phone-orange.png' alt='download-icon' className="w-4 h-4 object-contain ml-3 mr-2" />
                     <Link href={RouteConstraints.HomePage}><span className='text-black font-light text-sm'>1800 890 2868</span></Link>
                 </div>
                 <div className='flex items-center'>
