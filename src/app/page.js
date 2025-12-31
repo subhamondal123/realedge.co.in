@@ -1,6 +1,7 @@
 import CustomCarousel from "@/sharedComponents/CustomCarousel/CustomCarousel";
 import { AboutUsSection } from "./Sections/AboutUsSection/AboutUsSection";
 import OurProductSection from "./Sections/OurProductSection/OurProductSection";
+import StructuralSteelSection from "./Sections/StructuralSteelSection/StructuralSteelSection";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <CustomCarousel />
         <AboutUsSection />
         <OurProductSection />
+        <StructuralSteelSection />
       </main>
     </div>
   );

@@ -1,34 +1,35 @@
 import Colors from "@/enums/Colors";
 import Seperator from "@/sharedComponents/Seperator/Seperator";
+import ImageConstraint from "@/utils/ImageConstraint";
 
 const arrData = [
     {
         id: 1,
-        image: "https://realedge.co.in/adminprod/wp-content/uploads/2024/11/ms-square.png",
+        image:ImageConstraint.PRODUCT.PRODUCT_1,
         mainText: "MS Square",
         subText: "16MM, 20MM, 40MM"
     },
     {
         id: 2,
-        image: "https://realedge.co.in/adminprod/wp-content/uploads/2024/11/ms-flats.png",
+        image: ImageConstraint.PRODUCT.PRODUCT_2,
         mainText: "MS Flats",
         subText: "16MM, 20MM, 21MM..."
     },
     {
         id: 3,
-        image: "https://realedge.co.in/adminprod/wp-content/uploads/2024/11/ms-angles.png",
+        image: ImageConstraint.PRODUCT.PRODUCT_3,
         mainText: "MS Angles",
         subText: "25MM, 30MM, 35MM..."
     },
     {
         id: 4,
-        image: "https://realedge.co.in/adminprod/wp-content/uploads/2024/11/z-angles.png",
+        image: ImageConstraint.PRODUCT.PRODUCT_4,
         mainText: "Z Angles",
         subText: "10-25MM ±0.4 mm"
     },
     {
         id: 5,
-        image: "https://realedge.co.in/adminprod/wp-content/uploads/2024/11/gate-channel.png",
+        image: ImageConstraint.PRODUCT.PRODUCT_5,
         mainText: "Gate Channel",
         subText: "12ft, 13ft, 14ft, 15ft..."
     },
