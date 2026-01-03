@@ -12,6 +12,9 @@ const Colors = {
     GRAY:{
         SLATE_GRAY:"#5D6C7C",
         LIGHT_GRAY:"#D4D4D4"
+    },
+    RED:{
+        AMARANTH:"#FF0000"
     }
 }
 

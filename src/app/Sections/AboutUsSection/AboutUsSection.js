@@ -2,7 +2,7 @@ import Colors from "@/enums/Colors";
 import Seperator from "@/sharedComponents/Seperator/Seperator";
 
 
-export function AboutUsSection() {
+export default function AboutUsSection() {
     return (
         <div>
             <main className="px-2 py-2 md:px-8 md:py-9">

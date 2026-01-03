@@ -1,7 +1,9 @@
 const RouteConstraints = {
     HomePage:"/",
-    AboutPage:"/about",
-    ContactUsPage:"/contact-us"
+    ProductPage:"/ProductPage",
+    AboutPage:"/AboutUsPage",
+    BlogPage:"/BlogPage",
+    ContactUsPage:"/ContactUsPage",
 }
 
 export default RouteConstraints;
